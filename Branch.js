@@ -4,6 +4,6 @@ func1 = () => {
 func2 = () => {
   console.log("this is function2");
 };
-func4 = () => {
+func3 = () => {
   console.log("this is function4");
 };
