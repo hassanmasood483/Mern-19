@@ -1,9 +1,9 @@
 func1 = () => {
   console.log("this is function1");
 };
-func2 = () => {
-  console.log("this is function2");
+func5 = () => {
+  console.log("this is function5");
 };
-func3 = () => {
+func4 = () => {
   console.log("this is function4");
 };
