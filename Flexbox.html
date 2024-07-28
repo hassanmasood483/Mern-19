@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <link rel="stylesheet" href="/Flexbox Practice/flexbox.css">
+    <style>
+        flex-container {
+            background-color: blue;
+            display: flex;
+            justify-content: right;
+            padding: 10px 10px;
+            height: 100px;
+            flex-wrap: wrap;
+            flex-direction: row;
+            /* align-items: center;*/
+            align-content: center;
+        }
+
+        .flex-container>div {
+            background-color: brown;
+            padding: 20px;
+            color: white;
+            width: 50px;
+            line-height: 50px;
+            margin: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="flex-container">
+            <div class="item1">item1</div>
+            <div class="item2">item2</div>
+            <div class="item3">item3</div>
+            <div class="item4">item4</div>
+            <div class="item2">item2</div>
+            <div class="item3">item3</div>
+            <div class="item1">item1</div>
+            <div class="item2">item2</div>
+            <div class="item3">item3</div>
+            <div class="item1">item1</div>
+            <div class="item2">item2</div>
+            <div class="item3">item3</div>
+        </div>
+    </header>
+</body>
+
+</html>
