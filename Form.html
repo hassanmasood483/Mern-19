@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        .form-style {
+            background-color: aliceblue;
+            color: black;
+            border-radius: 10px;
+            display: block;
+            text-align: center;
+            padding: 10px;
+            width: fit-content;
+            height: fit-content;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <form class="form-style">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname"><br>
+
+        <label for="age">Age:</label><br>
+        <input type="number" name="age" id="age"><br>
+
+        <label for="course">Course:</label><br>
+        <input type="text" name="course" id="course"><br>
+
+        <label for="gender">Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+
+        <label for="date">Date:</label><br>
+        <input type="date" name="date" id="date"><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" name="email" id="email"><br><br>
+
+
+        <input type="button" value="Submit" style="cursor: pointer;">
+    </form>
+
+</body>
+
+</html>
